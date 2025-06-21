@@ -504,13 +504,13 @@
 
       <!-- Texto a la derecha -->
    <div class="col-md-6 ms-md-auto text-center text-md-start" style="margin-top: 8rem;">
-  <h2 class="fw-bold" style="font-size: 3rem; color: white;">
+ <h2 class="fw-bold" style="font-size: 3rem; color: white;">
     ¡<span style="color: white;">CONTEMOS LAS</span>
     <span style="color: #fbc412;">EXPERIENCIAS!</span>
   </h2>
 
-  <div class="d-flex align-items-center gap-2 my-3 flex-wrap">
-  <span style="
+  <div class="d-flex align-items-center gap-2 my-3 flex-wrap text-responsive">
+  <span class="span-number" style="
   background-color: #fbc412;
      color: white;
     font-weight: 700;
@@ -528,7 +528,7 @@
 </span>
 
 
-    <span style="
+    <span class="span-text" style="
          background-color: white;
     color: #0051b1;
     font-weight: 700;
@@ -538,7 +538,6 @@
     display: inline-block;
     ">PODCAST EXCLUSIVO</span>
   </div>
-
  <p class="mt-3" style="font-size: 1.1rem; max-width: 500px; color: rgba(255, 255, 255, 0.75);">
   Cada episodio te recordará el mejor verano de tu vida o podrás aprender de las experiencias de los demás para
   tu próximo viaje.
@@ -596,16 +595,9 @@
       </div>
     </div>
   </section>
-<section class="contacto position-relative"
-  style="
-    background: url('./assets/img/colombia/Fondo chica.png') no-repeat left center;
-    background-size: cover;
-    background-position: left center;
-    padding: 4rem 2rem; /* padding arriba/abajo y laterales */
-    min-height: 610px;
-">
 
-
+  <section class="contacto position-relative"
+    style="background: url('./assets/img/colombia/FondoColombia.png') no-repeat center center; background-size: cover; min-height: 610px;">
     <div class=" position-relative">
       <div class=" align-items-center container w-100 d-flex" style="margin: auto;">
 
@@ -617,20 +609,22 @@
             Empresa líder en la República Dominicana en intercambios culturales.
           </p>
 
-          <ul class="list-unstyled"
+        <ul class="list-unstyled"
   style="color: #002c6c; font-family: 'Crossten', sans-serif; font-weight: 300; font-size: 1rem;">
+  
   <li class="mb-2 d-flex align-items-center">
-    <img src="/assets/icons/llamar (1).png" alt="Teléfono" class="me-2">
-    +57 601 743 7970
+    <img src="/assets/icons/llamar (1).png" alt="" class="me-2"> +57 601 743 7970
   </li>
+
   <li class="mb-2 d-flex align-items-center">
-    <img src="/assets/icons/correo-electronico (1).png" alt="Correo" class="me-2">
-    info@ofit.com.co
+    <img src="/assets/icons/correo-electronico (1).png" alt="" class="me-2"> info@ofit.com.co
   </li>
+
   <li class="d-flex align-items-start">
-    <img src="/assets/icons/mapa.png" alt="Ubicación" class="me-2 mt-1">
+    <img src="/assets/icons/mapa.png" alt="" class="me-2 mt-1">
     <div>
-      Calle 127 #14-54 Gradeco Business Plaza, Local 108.<br />
+      Calle 127 #14-54 Gradeco<br />
+      Business Plaza, Local 108.<br />
       Bogotá, Colombia
     </div>
   </li>
@@ -640,22 +634,31 @@
         <div class="w-100 d-flex justify-content-center align-items-center position-relative">
 
           <img src="./assets/img/colombia/chica.png" class="man-image" alt="Chico" style="
-             display: flex
-;
-    justify-content: center;
-    position: absolute;
-    max-height: 624px;
-    z-index: 1;
-    object-fit: contain;
-    /* right: 0rem; */
-
+         display: flex;
+         justify-content: center;
+            position: absolute;
+            max-height: 660px;
+            z-index: 1;
+            object-fit: contain;
+                 left: 5rem;
          " />
         </div>
 
 
-      <div class="w-50 p-4 form-container" style="z-index: 2;">
+        <div class="w-50  p-4 form-container" style="z-index: 2;">
+          <div class="bg-white rounded p-4 shadow w-100" style="min-width: 330px; max-width: 370px; margin: auto;">
+            <div class="form">
 
-  <!-- Estilos embebidos -->
+              <h4 class="fw-bold text-warning mb-3 text-center">CONTACTO</h4>
+              <form>
+                 <input type="text" class="form-control mb-3 input-yellow" placeholder="Nombre" />
+              <input type="email" class="form-control mb-3 input-yellow" placeholder="Email" />
+              <input type="text" class="form-control mb-3 input-yellow" placeholder="Asunto" />
+              <textarea class="form-control mb-3 input-yellow" rows="4" placeholder="Mensaje"></textarea>
+              </form>
+            </div>
+          </div>
+        </div>
   <style>
     .input-yellow {
       border: 2px solid #fbc412;
@@ -675,37 +678,6 @@
       outline: none;
     }
   </style>
-
-  <!-- Contenedor blanco con encabezado azul -->
-  <div class="bg-white shadow w-100" style="min-width: 330px; max-width: 370px; margin: auto; border-radius: 16px;
-    border-top-right-radius: 16px;">
-    
-    <!-- Encabezado azul -->
-    <div style="
-      background-color: #002c6c;
-      color: white;
-      padding: 10px;
-       border-radius: 16px;
-      text-align: center;
-      font-weight: 700;
-      font-size: 2.5rem;
-    ">
-      CONTACTO
-    </div>
-
-    <!-- Formulario -->
-    <div class="form px-4 py-4">
-      <form>
-        <input type="text" class="form-control mb-3 input-yellow" placeholder="Nombre" />
-        <input type="email" class="form-control mb-3 input-yellow" placeholder="Email" />
-        <input type="text" class="form-control mb-3 input-yellow" placeholder="Asunto" />
-        <textarea class="form-control mb-3 input-yellow" rows="4" placeholder="Mensaje"></textarea>
-      </form>
-    </div>
-  </div>
-</div>
-
-
 
       </div>
     </div>

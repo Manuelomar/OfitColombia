@@ -169,6 +169,20 @@ textarea {
   }
 
 @media screen and (max-width: 992px) {
+
+
+    .contemos-container .text-responsive{
+        justify-content: center;
+
+  }
+   .contemos-container .text-responsive .span-number{
+          margin-left: -19rem!important;
+
+  }
+     .contemos-container .text-responsive .span-text{
+        justify-content: center;
+
+  }
   .img-container-cloud img{
         top: -1rem!important;
 
